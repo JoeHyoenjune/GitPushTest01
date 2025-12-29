@@ -29,4 +29,18 @@ public class Member1Controller {
 		return "member1/start";
 	}
 	
+	// member1 작업
+	@GetMapping("/start4")
+	public String member1Start4(Model model) {
+		model.addAttribute("param", "member1-start4-parameter");
+		return "member1/start";
+	}
+	
+	// member1 작업
+	@GetMapping("/start5")
+	public String member1Start5(Model model) {
+		model.addAttribute("param", "member1-start5-parameter");
+		return "member1/start";
+	}
+	
 }
