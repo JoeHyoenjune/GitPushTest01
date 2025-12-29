@@ -43,4 +43,11 @@ public class Member1Controller {
 		return "member1/start";
 	}
 	
+	// member1 작업
+	@GetMapping("/start6")
+	public String member1Start6(Model model) {
+		model.addAttribute("param", "member1-start6-parameter");
+		return "member1/start";
+	}
+	
 }
