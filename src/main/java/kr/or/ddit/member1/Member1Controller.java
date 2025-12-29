@@ -22,4 +22,11 @@ public class Member1Controller {
 		return "member1/start";
 	}
 	
+	// member1 작업
+	@GetMapping("/list")
+	public String member1List(Model model) {
+		model.addAttribute("param", "member1-list");
+		return "member1/start";
+	}
+	
 }
