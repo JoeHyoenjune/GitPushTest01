@@ -16,34 +16,6 @@ public class Member1Controller {
 	}
 	
 	// member1 작업
-	@GetMapping("/start2")
-	public String member1Start2(Model model) {
-		model.addAttribute("param", "member1");
-		return "member1/start";
-	}
-	
-	// member1 작업
-	@GetMapping("/start3")
-	public String member1Start3(Model model) {
-		model.addAttribute("param", "member1-start3-parameter");
-		return "member1/start";
-	}
-	
-	// member1 작업
-	@GetMapping("/start4")
-	public String member1Start4(Model model) {
-		model.addAttribute("param", "member1-start4-parameter");
-		return "member1/start";
-	}
-	
-	// member1 작업
-	@GetMapping("/start5")
-	public String member1Start5(Model model) {
-		model.addAttribute("param", "member1-start5-parameter");
-		return "member1/start";
-	}
-	
-	// member1 작업
 	@GetMapping("/start6")
 	public String member1Start6(Model model) {
 		model.addAttribute("param", "member1-start6-parameter");
