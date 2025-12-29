@@ -9,5 +9,6 @@
 <body>
 	<h1>Member1 Start!</h1>
 	<p>${param }</p>
+	<p>추가</p>
 </body>
 </html>
