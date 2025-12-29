@@ -20,6 +20,13 @@ public class Member1Controller {
 	public String member1Start2(Model model) {
 		model.addAttribute("param", "member1");
 		return "member1/start";
-	} 
+	}
+	
+	// member1 작업
+	@GetMapping("/start3")
+	public String member1Start3(Model model) {
+		model.addAttribute("param", "member1-start3");
+		return "member1/start";
+	}
 	
 }
