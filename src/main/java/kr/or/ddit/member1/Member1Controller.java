@@ -25,7 +25,7 @@ public class Member1Controller {
 	// member1 작업
 	@GetMapping("/start3")
 	public String member1Start3(Model model) {
-		model.addAttribute("param", "member1-start3");
+		model.addAttribute("param", "member1-start3-parameter");
 		return "member1/start";
 	}
 	
