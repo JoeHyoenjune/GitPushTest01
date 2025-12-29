@@ -8,5 +8,6 @@
 </head>
 <body>
 	<h1>Member1 Start!</h1>
+	<p>${param }</p>
 </body>
 </html>
